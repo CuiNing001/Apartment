@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="NoticeView">
+            <rect key="frame" x="0.0" y="0.0" width="351" height="264"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="公告.png" translatesAutoresizingMaskIntoConstraints="NO" id="G1S-le-2At"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="最新公告:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ihx-fs-Nqe">
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2016-10-20" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="c3X-ZL-faL">
+                    <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                    <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="JXy-hZ-c0G">
+                    <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.0" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="5Gl-tg-r6S"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="oG9-19-te2"/>
+                        <outlet property="delegate" destination="-1" id="VHF-VD-mx9"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="0.4024775256849315" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="G1S-le-2At" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="260-Kr-zFI"/>
+                <constraint firstItem="c3X-ZL-faL" firstAttribute="leading" secondItem="JXy-hZ-c0G" secondAttribute="trailing" constant="5" id="BaP-b8-8W4"/>
+                <constraint firstItem="Ihx-fs-Nqe" firstAttribute="centerY" secondItem="G1S-le-2At" secondAttribute="centerY" id="GNx-Rh-JuI"/>
+                <constraint firstAttribute="trailing" secondItem="c3X-ZL-faL" secondAttribute="trailing" constant="10" id="PUY-xX-OAL"/>
+                <constraint firstItem="G1S-le-2At" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="SGU-Tn-7Ps"/>
+                <constraint firstItem="Ihx-fs-Nqe" firstAttribute="leading" secondItem="G1S-le-2At" secondAttribute="trailing" constant="5" id="dpM-GA-q34"/>
+                <constraint firstItem="JXy-hZ-c0G" firstAttribute="leading" secondItem="Ihx-fs-Nqe" secondAttribute="trailing" constant="5" id="nla-hk-aCi"/>
+                <constraint firstItem="JXy-hZ-c0G" firstAttribute="centerY" secondItem="Ihx-fs-Nqe" secondAttribute="centerY" id="u9r-dH-IKl"/>
+                <constraint firstItem="c3X-ZL-faL" firstAttribute="centerY" secondItem="Ihx-fs-Nqe" secondAttribute="centerY" id="zIb-74-fl3"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="dateLabel" destination="c3X-ZL-faL" id="ett-N9-6ee"/>
+                <outlet property="tableView" destination="JXy-hZ-c0G" id="pqZ-sY-1uX"/>
+            </connections>
+            <point key="canvasLocation" x="20.5" y="-148"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="公告.png" width="15" height="16"/>
+    </resources>
+</document>

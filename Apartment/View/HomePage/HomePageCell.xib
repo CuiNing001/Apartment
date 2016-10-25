@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="HomePageCell" id="gTV-IL-0wX" customClass="HomePageCell">
+            <rect key="frame" x="0.0" y="0.0" width="169" height="127"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="169" height="127"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dUP-5q-pVL">
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="房屋预估.png" translatesAutoresizingMaskIntoConstraints="NO" id="rIC-rO-EeZ"/>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="rIC-rO-EeZ" secondAttribute="bottom" id="1AC-f3-yiv"/>
+                            <constraint firstItem="rIC-rO-EeZ" firstAttribute="leading" secondItem="dUP-5q-pVL" secondAttribute="leading" id="6ZN-6p-BxO"/>
+                            <constraint firstAttribute="trailing" secondItem="rIC-rO-EeZ" secondAttribute="trailing" id="Efu-BV-k4D"/>
+                            <constraint firstItem="rIC-rO-EeZ" firstAttribute="top" secondItem="dUP-5q-pVL" secondAttribute="top" id="XEZ-LM-08e"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="dUP-5q-pVL" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="Jv0-7h-cOP"/>
+                <constraint firstItem="dUP-5q-pVL" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Twq-PR-m5K"/>
+                <constraint firstAttribute="trailing" secondItem="dUP-5q-pVL" secondAttribute="trailing" id="gvj-ga-TCM"/>
+                <constraint firstAttribute="bottom" secondItem="dUP-5q-pVL" secondAttribute="bottom" id="mgB-e8-x8d"/>
+            </constraints>
+            <size key="customSize" width="169" height="127"/>
+            <connections>
+                <outlet property="imageView" destination="rIC-rO-EeZ" id="OCs-Xf-Luu"/>
+            </connections>
+            <point key="canvasLocation" x="-21.5" y="-4.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="房屋预估.png" width="115" height="115"/>
+    </resources>
+</document>

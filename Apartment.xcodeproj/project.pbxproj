@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA10E7171DB9A5680039ED7F /* CheckOutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA10E7161DB9A5680039ED7F /* CheckOutViewController.m */; };
+		EA10E7211DB9A91B0039ED7F /* 分散实勘报告@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA10E7191DB9A91B0039ED7F /* 分散实勘报告@2x.png */; };
+		EA10E7221DB9A91B0039ED7F /* 分散实勘报告@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA10E71A1DB9A91B0039ED7F /* 分散实勘报告@3x.png */; };
+		EA10E7231DB9A91B0039ED7F /* 底部插画@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA10E71B1DB9A91B0039ED7F /* 底部插画@2x.png */; };
+		EA10E7241DB9A91B0039ED7F /* 底部插画@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA10E71C1DB9A91B0039ED7F /* 底部插画@3x.png */; };
+		EA10E7271DB9A91B0039ED7F /* 集中实勘报告@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA10E71F1DB9A91B0039ED7F /* 集中实勘报告@2x.png */; };
+		EA10E7281DB9A91B0039ED7F /* 集中实勘报告@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA10E7201DB9A91B0039ED7F /* 集中实勘报告@3x.png */; };
+		EA10E7301DB9C7700039ED7F /* 实勘房屋基本信息@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA10E72C1DB9C7700039ED7F /* 实勘房屋基本信息@2x.png */; };
+		EA10E7331DB9C88A0039ED7F /* 下一步按钮@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA10E7321DB9C88A0039ED7F /* 下一步按钮@2x.png */; };
+		EA10E7361DB9C92A0039ED7F /* GroupCheckController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA10E7351DB9C92A0039ED7F /* GroupCheckController.m */; };
+		EA17E7871DBDEFF40009D571 /* ChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA17E7861DBDEFF40009D571 /* ChooseView.m */; };
+		EA17E7891DBDF0050009D571 /* ChooseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA17E7881DBDF0050009D571 /* ChooseView.xib */; };
+		EA2E75D51DB89E6400D514AB /* NoticeView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA2E75D41DB89E6400D514AB /* NoticeView.m */; };
+		EA2E75D71DB89E7300D514AB /* NoticeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA2E75D61DB89E7300D514AB /* NoticeView.xib */; };
+		EA3EB1CF1DB74F0900695B02 /* 房屋实勘@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3EB1CD1DB74F0900695B02 /* 房屋实勘@3x.png */; };
+		EA3EB1D01DB74F0900695B02 /* 房屋实勘@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3EB1CE1DB74F0900695B02 /* 房屋实勘@2x.png */; };
+		EA3EB1D31DB755C200695B02 /* 公告@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3EB1D11DB755C200695B02 /* 公告@2x.png */; };
+		EA3EB1D41DB755C200695B02 /* 公告@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3EB1D21DB755C200695B02 /* 公告@3x.png */; };
+		EA4A95E11DBEFC5E0074B168 /* HousePropertyChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA4A95E01DBEFC5E0074B168 /* HousePropertyChooseView.m */; };
+		EA4A95E31DBEFC760074B168 /* HousePropertyChooseView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA4A95E21DBEFC760074B168 /* HousePropertyChooseView.xib */; };
 		EAB7DD211DB4CBF600D31ED3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB7DD201DB4CBF600D31ED3 /* main.m */; };
 		EAB7DD241DB4CBF600D31ED3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB7DD231DB4CBF600D31ED3 /* AppDelegate.m */; };
 		EAB7DD2A1DB4CBF600D31ED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB7DD281DB4CBF600D31ED3 /* Main.storyboard */; };
@@ -15,6 +35,59 @@
 		EAB7DD321DB4CBF600D31ED3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EAB7DD301DB4CBF600D31ED3 /* LaunchScreen.storyboard */; };
 		EAB7DD3D1DB4CBF600D31ED3 /* ApartmentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB7DD3C1DB4CBF600D31ED3 /* ApartmentTests.m */; };
 		EAB7DD481DB4CBF600D31ED3 /* ApartmentUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EAB7DD471DB4CBF600D31ED3 /* ApartmentUITests.m */; };
+		EAE056D21DB5C67700BE8524 /* HomePageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE056D01DB5C67700BE8524 /* HomePageCell.m */; };
+		EAE056D31DB5C67700BE8524 /* HomePageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAE056D11DB5C67700BE8524 /* HomePageCell.xib */; };
+		EAE056D81DB5CB9100BE8524 /* NetWorkManger.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE056D71DB5CB9100BE8524 /* NetWorkManger.m */; };
+		EAE056DE1DB5F48800BE8524 /* SycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE056DC1DB5F48800BE8524 /* SycleScrollView.m */; };
+		EAE056EB1DB5FAA600BE8524 /* 出门一般@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE056E11DB5FAA600BE8524 /* 出门一般@2x.png */; };
+		EAE056EC1DB5FAA600BE8524 /* 出门选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE056E21DB5FAA600BE8524 /* 出门选中@2x.png */; };
+		EAE056ED1DB5FAA600BE8524 /* 和和寓一般@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE056E31DB5FAA600BE8524 /* 和和寓一般@2x.png */; };
+		EAE056EE1DB5FAA600BE8524 /* 和和寓选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE056E41DB5FAA600BE8524 /* 和和寓选中@2x.png */; };
+		EAE056EF1DB5FAA600BE8524 /* 我的一般@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE056E51DB5FAA600BE8524 /* 我的一般@2x.png */; };
+		EAE056F01DB5FAA600BE8524 /* 我的选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE056E61DB5FAA600BE8524 /* 我的选中@2x.png */; };
+		EAE056F11DB5FAA600BE8524 /* 消息一般@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE056E71DB5FAA600BE8524 /* 消息一般@2x.png */; };
+		EAE056F21DB5FAA600BE8524 /* 消息选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE056E81DB5FAA600BE8524 /* 消息选中@2x.png */; };
+		EAE056F31DB5FAA600BE8524 /* 设置一般@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE056E91DB5FAA600BE8524 /* 设置一般@2x.png */; };
+		EAE056F41DB5FAA600BE8524 /* 设置选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE056EA1DB5FAA600BE8524 /* 设置选中@2x.png */; };
+		EAE057151DB5FCDB00BE8524 /* banner.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE056F61DB5FCDB00BE8524 /* banner.png */; };
+		EAE057161DB5FCDB00BE8524 /* 储备房源@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE056F71DB5FCDB00BE8524 /* 储备房源@2x.png */; };
+		EAE057171DB5FCDB00BE8524 /* 储备房源@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE056F81DB5FCDB00BE8524 /* 储备房源@3x.png */; };
+		EAE057181DB5FCDB00BE8524 /* 合租管理@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE056F91DB5FCDB00BE8524 /* 合租管理@2x.png */; };
+		EAE057191DB5FCDB00BE8524 /* 合租管理@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE056FA1DB5FCDB00BE8524 /* 合租管理@3x.png */; };
+		EAE0571A1DB5FCDB00BE8524 /* 微信管理@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE056FB1DB5FCDB00BE8524 /* 微信管理@2x.png */; };
+		EAE0571B1DB5FCDB00BE8524 /* 微信管理@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE056FC1DB5FCDB00BE8524 /* 微信管理@3x.png */; };
+		EAE0571E1DB5FCDB00BE8524 /* 我的待办选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE056FF1DB5FCDB00BE8524 /* 我的待办选中@2x.png */; };
+		EAE0571F1DB5FCDB00BE8524 /* 我的待办选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE057001DB5FCDB00BE8524 /* 我的待办选中@3x.png */; };
+		EAE057221DB5FCDB00BE8524 /* 我的计划选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE057031DB5FCDB00BE8524 /* 我的计划选中@2x.png */; };
+		EAE057231DB5FCDB00BE8524 /* 我的计划选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE057041DB5FCDB00BE8524 /* 我的计划选中@3x.png */; };
+		EAE057241DB5FCDB00BE8524 /* 房屋预估@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE057051DB5FCDB00BE8524 /* 房屋预估@2x.png */; };
+		EAE057251DB5FCDB00BE8524 /* 房屋预估@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE057061DB5FCDB00BE8524 /* 房屋预估@3x.png */; };
+		EAE057281DB5FCDB00BE8524 /* 收支统计选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE057091DB5FCDB00BE8524 /* 收支统计选中@2x.png */; };
+		EAE057291DB5FCDB00BE8524 /* 收支统计选中@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE0570A1DB5FCDB00BE8524 /* 收支统计选中@3x.png */; };
+		EAE0572A1DB5FCDB00BE8524 /* 整租管理@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE0570B1DB5FCDB00BE8524 /* 整租管理@2x.png */; };
+		EAE0572B1DB5FCDB00BE8524 /* 整租管理@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE0570C1DB5FCDB00BE8524 /* 整租管理@3x.png */; };
+		EAE0572C1DB5FCDB00BE8524 /* 维修管理@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE0570D1DB5FCDB00BE8524 /* 维修管理@2x.png */; };
+		EAE0572D1DB5FCDB00BE8524 /* 维修管理@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE0570E1DB5FCDB00BE8524 /* 维修管理@3x.png */; };
+		EAE0572E1DB5FCDB00BE8524 /* 老板键@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE0570F1DB5FCDB00BE8524 /* 老板键@3x.png */; };
+		EAE0572F1DB5FCDB00BE8524 /* 老板键选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE057101DB5FCDB00BE8524 /* 老板键选中@2x.png */; };
+		EAE057301DB5FCDB00BE8524 /* 财务管理@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE057111DB5FCDB00BE8524 /* 财务管理@2x.png */; };
+		EAE057311DB5FCDB00BE8524 /* 财务管理@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE057121DB5FCDB00BE8524 /* 财务管理@3x.png */; };
+		EAE057321DB5FCDB00BE8524 /* 集中整租@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE057131DB5FCDB00BE8524 /* 集中整租@2x.png */; };
+		EAE057331DB5FCDB00BE8524 /* 集中整租@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE057141DB5FCDB00BE8524 /* 集中整租@3x.png */; };
+		EAE057361DB6106800BE8524 /* OptionsView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE057351DB6106800BE8524 /* OptionsView.m */; };
+		EAE0573E1DB6220D00BE8524 /* 测试1.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE0573D1DB6220D00BE8524 /* 测试1.png */; };
+		EAE057401DB6221600BE8524 /* 测试4.png in Resources */ = {isa = PBXBuildFile; fileRef = EAE0573F1DB6221600BE8524 /* 测试4.png */; };
+		EAE057421DB6355C00BE8524 /* OptionsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = EAE057411DB6355C00BE8524 /* OptionsView.xib */; };
+		EAFD20531DBDE1B3005A5AA7 /* 返回主页选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAFD20521DBDE1B3005A5AA7 /* 返回主页选中@2x.png */; };
+		EAFD20561DBDE1D8005A5AA7 /* 下拉按钮选中@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAFD20541DBDE1D8005A5AA7 /* 下拉按钮选中@2x.png */; };
+		EAFD20571DBDE1D8005A5AA7 /* 下拉按钮一般@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAFD20551DBDE1D8005A5AA7 /* 下拉按钮一般@2x.png */; };
+		EAFD205B1DBDE308005A5AA7 /* 返回一般@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EAFD205A1DBDE308005A5AA7 /* 返回一般@2x.png */; };
+		EAFE3C151DB4D01600F07013 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFE3C141DB4D01600F07013 /* HomePageViewController.m */; };
+		EAFE3C1B1DB4D34000F07013 /* MessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFE3C1A1DB4D34000F07013 /* MessageViewController.m */; };
+		EAFE3C211DB4D35F00F07013 /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFE3C201DB4D35F00F07013 /* MineViewController.m */; };
+		EAFE3C241DB4D36C00F07013 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFE3C231DB4D36C00F07013 /* SettingViewController.m */; };
+		EAFE3C271DB4D39300F07013 /* GoToWorkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EAFE3C261DB4D39300F07013 /* GoToWorkViewController.m */; };
+		FAF7E4A60F7E7F2E366FF6BF /* Pods_Apartment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EFD035208737361784B46C7 /* Pods_Apartment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +108,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EFD035208737361784B46C7 /* Pods_Apartment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apartment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		448447AB6C1EFE4A05FF0C51 /* Pods-Apartment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apartment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Apartment/Pods-Apartment.release.xcconfig"; sourceTree = "<group>"; };
+		87193A6CC73F19A908AA5982 /* Pods-Apartment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apartment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Apartment/Pods-Apartment.debug.xcconfig"; sourceTree = "<group>"; };
+		EA10E7151DB9A5680039ED7F /* CheckOutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckOutViewController.h; sourceTree = "<group>"; };
+		EA10E7161DB9A5680039ED7F /* CheckOutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckOutViewController.m; sourceTree = "<group>"; };
+		EA10E7191DB9A91B0039ED7F /* 分散实勘报告@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分散实勘报告@2x.png"; sourceTree = "<group>"; };
+		EA10E71A1DB9A91B0039ED7F /* 分散实勘报告@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "分散实勘报告@3x.png"; sourceTree = "<group>"; };
+		EA10E71B1DB9A91B0039ED7F /* 底部插画@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部插画@2x.png"; sourceTree = "<group>"; };
+		EA10E71C1DB9A91B0039ED7F /* 底部插画@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "底部插画@3x.png"; sourceTree = "<group>"; };
+		EA10E71F1DB9A91B0039ED7F /* 集中实勘报告@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "集中实勘报告@2x.png"; sourceTree = "<group>"; };
+		EA10E7201DB9A91B0039ED7F /* 集中实勘报告@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "集中实勘报告@3x.png"; sourceTree = "<group>"; };
+		EA10E72C1DB9C7700039ED7F /* 实勘房屋基本信息@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "实勘房屋基本信息@2x.png"; sourceTree = "<group>"; };
+		EA10E7321DB9C88A0039ED7F /* 下一步按钮@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下一步按钮@2x.png"; sourceTree = "<group>"; };
+		EA10E7341DB9C92A0039ED7F /* GroupCheckController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupCheckController.h; sourceTree = "<group>"; };
+		EA10E7351DB9C92A0039ED7F /* GroupCheckController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupCheckController.m; sourceTree = "<group>"; };
+		EA17E7851DBDEFF40009D571 /* ChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChooseView.h; sourceTree = "<group>"; };
+		EA17E7861DBDEFF40009D571 /* ChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChooseView.m; sourceTree = "<group>"; };
+		EA17E7881DBDF0050009D571 /* ChooseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChooseView.xib; sourceTree = "<group>"; };
+		EA2E75D31DB89E6400D514AB /* NoticeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoticeView.h; sourceTree = "<group>"; };
+		EA2E75D41DB89E6400D514AB /* NoticeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoticeView.m; sourceTree = "<group>"; };
+		EA2E75D61DB89E7300D514AB /* NoticeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoticeView.xib; sourceTree = "<group>"; };
+		EA3EB1CD1DB74F0900695B02 /* 房屋实勘@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "房屋实勘@3x.png"; sourceTree = "<group>"; };
+		EA3EB1CE1DB74F0900695B02 /* 房屋实勘@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "房屋实勘@2x.png"; sourceTree = "<group>"; };
+		EA3EB1D11DB755C200695B02 /* 公告@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "公告@2x.png"; sourceTree = "<group>"; };
+		EA3EB1D21DB755C200695B02 /* 公告@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "公告@3x.png"; sourceTree = "<group>"; };
+		EA4A95DF1DBEFC5E0074B168 /* HousePropertyChooseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HousePropertyChooseView.h; sourceTree = "<group>"; };
+		EA4A95E01DBEFC5E0074B168 /* HousePropertyChooseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HousePropertyChooseView.m; sourceTree = "<group>"; };
+		EA4A95E21DBEFC760074B168 /* HousePropertyChooseView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HousePropertyChooseView.xib; sourceTree = "<group>"; };
 		EAB7DD1C1DB4CBF600D31ED3 /* Apartment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apartment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB7DD201DB4CBF600D31ED3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EAB7DD221DB4CBF600D31ED3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		EAB7DD231DB4CBF600D31ED3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EAB7DD221DB4CBF600D31ED3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Apartment/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		EAB7DD231DB4CBF600D31ED3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Apartment/AppDelegate.m; sourceTree = SOURCE_ROOT; };
 		EAB7DD291DB4CBF600D31ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EAB7DD2C1DB4CBF600D31ED3 /* Apartment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Apartment.xcdatamodel; sourceTree = "<group>"; };
 		EAB7DD2E1DB4CBF600D31ED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -50,6 +151,69 @@
 		EAB7DD431DB4CBF600D31ED3 /* ApartmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApartmentUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAB7DD471DB4CBF600D31ED3 /* ApartmentUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApartmentUITests.m; sourceTree = "<group>"; };
 		EAB7DD491DB4CBF600D31ED3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE056CF1DB5C67700BE8524 /* HomePageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageCell.h; sourceTree = "<group>"; };
+		EAE056D01DB5C67700BE8524 /* HomePageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageCell.m; sourceTree = "<group>"; };
+		EAE056D11DB5C67700BE8524 /* HomePageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePageCell.xib; sourceTree = "<group>"; };
+		EAE056D61DB5CB9100BE8524 /* NetWorkManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkManger.h; sourceTree = "<group>"; };
+		EAE056D71DB5CB9100BE8524 /* NetWorkManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkManger.m; sourceTree = "<group>"; };
+		EAE056D91DB5CBA800BE8524 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EAE056DA1DB5CCA900BE8524 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		EAE056DB1DB5F48800BE8524 /* SycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SycleScrollView.h; sourceTree = "<group>"; };
+		EAE056DC1DB5F48800BE8524 /* SycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SycleScrollView.m; sourceTree = "<group>"; };
+		EAE056E11DB5FAA600BE8524 /* 出门一般@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "出门一般@2x.png"; sourceTree = "<group>"; };
+		EAE056E21DB5FAA600BE8524 /* 出门选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "出门选中@2x.png"; sourceTree = "<group>"; };
+		EAE056E31DB5FAA600BE8524 /* 和和寓一般@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "和和寓一般@2x.png"; sourceTree = "<group>"; };
+		EAE056E41DB5FAA600BE8524 /* 和和寓选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "和和寓选中@2x.png"; sourceTree = "<group>"; };
+		EAE056E51DB5FAA600BE8524 /* 我的一般@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的一般@2x.png"; sourceTree = "<group>"; };
+		EAE056E61DB5FAA600BE8524 /* 我的选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的选中@2x.png"; sourceTree = "<group>"; };
+		EAE056E71DB5FAA600BE8524 /* 消息一般@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息一般@2x.png"; sourceTree = "<group>"; };
+		EAE056E81DB5FAA600BE8524 /* 消息选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "消息选中@2x.png"; sourceTree = "<group>"; };
+		EAE056E91DB5FAA600BE8524 /* 设置一般@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置一般@2x.png"; sourceTree = "<group>"; };
+		EAE056EA1DB5FAA600BE8524 /* 设置选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "设置选中@2x.png"; sourceTree = "<group>"; };
+		EAE056F61DB5FCDB00BE8524 /* banner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = banner.png; sourceTree = "<group>"; };
+		EAE056F71DB5FCDB00BE8524 /* 储备房源@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "储备房源@2x.png"; sourceTree = "<group>"; };
+		EAE056F81DB5FCDB00BE8524 /* 储备房源@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "储备房源@3x.png"; sourceTree = "<group>"; };
+		EAE056F91DB5FCDB00BE8524 /* 合租管理@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "合租管理@2x.png"; sourceTree = "<group>"; };
+		EAE056FA1DB5FCDB00BE8524 /* 合租管理@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "合租管理@3x.png"; sourceTree = "<group>"; };
+		EAE056FB1DB5FCDB00BE8524 /* 微信管理@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信管理@2x.png"; sourceTree = "<group>"; };
+		EAE056FC1DB5FCDB00BE8524 /* 微信管理@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "微信管理@3x.png"; sourceTree = "<group>"; };
+		EAE056FF1DB5FCDB00BE8524 /* 我的待办选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的待办选中@2x.png"; sourceTree = "<group>"; };
+		EAE057001DB5FCDB00BE8524 /* 我的待办选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的待办选中@3x.png"; sourceTree = "<group>"; };
+		EAE057031DB5FCDB00BE8524 /* 我的计划选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的计划选中@2x.png"; sourceTree = "<group>"; };
+		EAE057041DB5FCDB00BE8524 /* 我的计划选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "我的计划选中@3x.png"; sourceTree = "<group>"; };
+		EAE057051DB5FCDB00BE8524 /* 房屋预估@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "房屋预估@2x.png"; sourceTree = "<group>"; };
+		EAE057061DB5FCDB00BE8524 /* 房屋预估@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "房屋预估@3x.png"; sourceTree = "<group>"; };
+		EAE057091DB5FCDB00BE8524 /* 收支统计选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "收支统计选中@2x.png"; sourceTree = "<group>"; };
+		EAE0570A1DB5FCDB00BE8524 /* 收支统计选中@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "收支统计选中@3x.png"; sourceTree = "<group>"; };
+		EAE0570B1DB5FCDB00BE8524 /* 整租管理@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "整租管理@2x.png"; sourceTree = "<group>"; };
+		EAE0570C1DB5FCDB00BE8524 /* 整租管理@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "整租管理@3x.png"; sourceTree = "<group>"; };
+		EAE0570D1DB5FCDB00BE8524 /* 维修管理@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "维修管理@2x.png"; sourceTree = "<group>"; };
+		EAE0570E1DB5FCDB00BE8524 /* 维修管理@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "维修管理@3x.png"; sourceTree = "<group>"; };
+		EAE0570F1DB5FCDB00BE8524 /* 老板键@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "老板键@3x.png"; sourceTree = "<group>"; };
+		EAE057101DB5FCDB00BE8524 /* 老板键选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "老板键选中@2x.png"; sourceTree = "<group>"; };
+		EAE057111DB5FCDB00BE8524 /* 财务管理@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "财务管理@2x.png"; sourceTree = "<group>"; };
+		EAE057121DB5FCDB00BE8524 /* 财务管理@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "财务管理@3x.png"; sourceTree = "<group>"; };
+		EAE057131DB5FCDB00BE8524 /* 集中整租@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "集中整租@2x.png"; sourceTree = "<group>"; };
+		EAE057141DB5FCDB00BE8524 /* 集中整租@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "集中整租@3x.png"; sourceTree = "<group>"; };
+		EAE057341DB6106800BE8524 /* OptionsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OptionsView.h; sourceTree = "<group>"; };
+		EAE057351DB6106800BE8524 /* OptionsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OptionsView.m; sourceTree = "<group>"; };
+		EAE0573D1DB6220D00BE8524 /* 测试1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "测试1.png"; sourceTree = "<group>"; };
+		EAE0573F1DB6221600BE8524 /* 测试4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "测试4.png"; sourceTree = "<group>"; };
+		EAE057411DB6355C00BE8524 /* OptionsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OptionsView.xib; sourceTree = "<group>"; };
+		EAFD20521DBDE1B3005A5AA7 /* 返回主页选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回主页选中@2x.png"; sourceTree = "<group>"; };
+		EAFD20541DBDE1D8005A5AA7 /* 下拉按钮选中@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉按钮选中@2x.png"; sourceTree = "<group>"; };
+		EAFD20551DBDE1D8005A5AA7 /* 下拉按钮一般@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "下拉按钮一般@2x.png"; sourceTree = "<group>"; };
+		EAFD205A1DBDE308005A5AA7 /* 返回一般@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回一般@2x.png"; sourceTree = "<group>"; };
+		EAFE3C131DB4D01600F07013 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		EAFE3C141DB4D01600F07013 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		EAFE3C191DB4D34000F07013 /* MessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageViewController.h; sourceTree = "<group>"; };
+		EAFE3C1A1DB4D34000F07013 /* MessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageViewController.m; sourceTree = "<group>"; };
+		EAFE3C1F1DB4D35F00F07013 /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		EAFE3C201DB4D35F00F07013 /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		EAFE3C221DB4D36C00F07013 /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		EAFE3C231DB4D36C00F07013 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		EAFE3C251DB4D39300F07013 /* GoToWorkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoToWorkViewController.h; sourceTree = "<group>"; };
+		EAFE3C261DB4D39300F07013 /* GoToWorkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoToWorkViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +221,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAF7E4A60F7E7F2E366FF6BF /* Pods_Apartment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +242,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DB143C562C93884DA06D6873 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				87193A6CC73F19A908AA5982 /* Pods-Apartment.debug.xcconfig */,
+				448447AB6C1EFE4A05FF0C51 /* Pods-Apartment.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EA10E7181DB9A91B0039ED7F /* 房屋实勘 */ = {
+			isa = PBXGroup;
+			children = (
+				EA10E7291DB9C7700039ED7F /* 集中实勘 */,
+				EA10E7191DB9A91B0039ED7F /* 分散实勘报告@2x.png */,
+				EA10E71A1DB9A91B0039ED7F /* 分散实勘报告@3x.png */,
+				EA10E71B1DB9A91B0039ED7F /* 底部插画@2x.png */,
+				EA10E71C1DB9A91B0039ED7F /* 底部插画@3x.png */,
+				EAFD205A1DBDE308005A5AA7 /* 返回一般@2x.png */,
+				EA10E71F1DB9A91B0039ED7F /* 集中实勘报告@2x.png */,
+				EA10E7201DB9A91B0039ED7F /* 集中实勘报告@3x.png */,
+			);
+			path = "房屋实勘";
+			sourceTree = "<group>";
+		};
+		EA10E7291DB9C7700039ED7F /* 集中实勘 */ = {
+			isa = PBXGroup;
+			children = (
+				EA10E7321DB9C88A0039ED7F /* 下一步按钮@2x.png */,
+				EA10E72C1DB9C7700039ED7F /* 实勘房屋基本信息@2x.png */,
+				EAFD20521DBDE1B3005A5AA7 /* 返回主页选中@2x.png */,
+				EAFD20541DBDE1D8005A5AA7 /* 下拉按钮选中@2x.png */,
+				EAFD20551DBDE1D8005A5AA7 /* 下拉按钮一般@2x.png */,
+			);
+			path = "集中实勘";
+			sourceTree = "<group>";
+		};
 		EAB7DD131DB4CBF600D31ED3 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +285,8 @@
 				EAB7DD3B1DB4CBF600D31ED3 /* ApartmentTests */,
 				EAB7DD461DB4CBF600D31ED3 /* ApartmentUITests */,
 				EAB7DD1D1DB4CBF600D31ED3 /* Products */,
+				DB143C562C93884DA06D6873 /* Pods */,
+				EC87FDBE9EE9CEAEBA91DDE9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,8 +303,12 @@
 		EAB7DD1E1DB4CBF600D31ED3 /* Apartment */ = {
 			isa = PBXGroup;
 			children = (
-				EAB7DD221DB4CBF600D31ED3 /* AppDelegate.h */,
-				EAB7DD231DB4CBF600D31ED3 /* AppDelegate.m */,
+				EAB7DD551DB4CC4400D31ED3 /* App */,
+				EAB7DD691DB4CEA600D31ED3 /* Resources */,
+				EAB7DD581DB4CC4400D31ED3 /* Tool */,
+				EAB7DD561DB4CC4400D31ED3 /* Controller */,
+				EAB7DD571DB4CC4400D31ED3 /* Model */,
+				EAB7DD591DB4CC4400D31ED3 /* View */,
 				EAB7DD281DB4CBF600D31ED3 /* Main.storyboard */,
 				EAB7DD2E1DB4CBF600D31ED3 /* Assets.xcassets */,
 				EAB7DD301DB4CBF600D31ED3 /* LaunchScreen.storyboard */,
@@ -138,6 +345,327 @@
 			path = ApartmentUITests;
 			sourceTree = "<group>";
 		};
+		EAB7DD551DB4CC4400D31ED3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				EAB7DD221DB4CBF600D31ED3 /* AppDelegate.h */,
+				EAB7DD231DB4CBF600D31ED3 /* AppDelegate.m */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		EAB7DD561DB4CC4400D31ED3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EAB7DD5A1DB4CDFD00D31ED3 /* GoToWork */,
+				EAB7DD5B1DB4CDFD00D31ED3 /* HomePage */,
+				EAB7DD5C1DB4CDFD00D31ED3 /* Message */,
+				EAB7DD5D1DB4CDFD00D31ED3 /* Mine */,
+				EAB7DD5E1DB4CDFD00D31ED3 /* Setting */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EAB7DD571DB4CC4400D31ED3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EAB7DD5F1DB4CE2400D31ED3 /* GoToWork */,
+				EAB7DD601DB4CE2400D31ED3 /* HomePage */,
+				EAB7DD611DB4CE2400D31ED3 /* Message */,
+				EAB7DD621DB4CE2400D31ED3 /* Mine */,
+				EAB7DD631DB4CE2400D31ED3 /* Setting */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EAB7DD581DB4CC4400D31ED3 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				EAE056D51DB5CB9100BE8524 /* NetWorkManger */,
+				EAE056D41DB5CB6500BE8524 /* Define */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		EAB7DD591DB4CC4400D31ED3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EAB7DD641DB4CE2D00D31ED3 /* GoToWork */,
+				EAB7DD651DB4CE2D00D31ED3 /* HomePage */,
+				EAB7DD661DB4CE2D00D31ED3 /* Message */,
+				EAB7DD671DB4CE2D00D31ED3 /* Mine */,
+				EAB7DD681DB4CE2D00D31ED3 /* Setting */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EAB7DD5A1DB4CDFD00D31ED3 /* GoToWork */ = {
+			isa = PBXGroup;
+			children = (
+				EAFE3C251DB4D39300F07013 /* GoToWorkViewController.h */,
+				EAFE3C261DB4D39300F07013 /* GoToWorkViewController.m */,
+			);
+			path = GoToWork;
+			sourceTree = "<group>";
+		};
+		EAB7DD5B1DB4CDFD00D31ED3 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				EAFE3C131DB4D01600F07013 /* HomePageViewController.h */,
+				EAFE3C141DB4D01600F07013 /* HomePageViewController.m */,
+				EA10E7151DB9A5680039ED7F /* CheckOutViewController.h */,
+				EA10E7161DB9A5680039ED7F /* CheckOutViewController.m */,
+				EA10E7341DB9C92A0039ED7F /* GroupCheckController.h */,
+				EA10E7351DB9C92A0039ED7F /* GroupCheckController.m */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		EAB7DD5C1DB4CDFD00D31ED3 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				EAFE3C191DB4D34000F07013 /* MessageViewController.h */,
+				EAFE3C1A1DB4D34000F07013 /* MessageViewController.m */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		EAB7DD5D1DB4CDFD00D31ED3 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				EAFE3C1F1DB4D35F00F07013 /* MineViewController.h */,
+				EAFE3C201DB4D35F00F07013 /* MineViewController.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		EAB7DD5E1DB4CDFD00D31ED3 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				EAFE3C221DB4D36C00F07013 /* SettingViewController.h */,
+				EAFE3C231DB4D36C00F07013 /* SettingViewController.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		EAB7DD5F1DB4CE2400D31ED3 /* GoToWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GoToWork;
+			sourceTree = "<group>";
+		};
+		EAB7DD601DB4CE2400D31ED3 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		EAB7DD611DB4CE2400D31ED3 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		EAB7DD621DB4CE2400D31ED3 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		EAB7DD631DB4CE2400D31ED3 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		EAB7DD641DB4CE2D00D31ED3 /* GoToWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GoToWork;
+			sourceTree = "<group>";
+		};
+		EAB7DD651DB4CE2D00D31ED3 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				EAE056CF1DB5C67700BE8524 /* HomePageCell.h */,
+				EAE056D01DB5C67700BE8524 /* HomePageCell.m */,
+				EAE056D11DB5C67700BE8524 /* HomePageCell.xib */,
+				EAE056DB1DB5F48800BE8524 /* SycleScrollView.h */,
+				EAE056DC1DB5F48800BE8524 /* SycleScrollView.m */,
+				EAE057341DB6106800BE8524 /* OptionsView.h */,
+				EAE057351DB6106800BE8524 /* OptionsView.m */,
+				EAE057411DB6355C00BE8524 /* OptionsView.xib */,
+				EA2E75D31DB89E6400D514AB /* NoticeView.h */,
+				EA2E75D41DB89E6400D514AB /* NoticeView.m */,
+				EA2E75D61DB89E7300D514AB /* NoticeView.xib */,
+				EA17E7851DBDEFF40009D571 /* ChooseView.h */,
+				EA17E7861DBDEFF40009D571 /* ChooseView.m */,
+				EA17E7881DBDF0050009D571 /* ChooseView.xib */,
+				EA4A95DF1DBEFC5E0074B168 /* HousePropertyChooseView.h */,
+				EA4A95E01DBEFC5E0074B168 /* HousePropertyChooseView.m */,
+				EA4A95E21DBEFC760074B168 /* HousePropertyChooseView.xib */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		EAB7DD661DB4CE2D00D31ED3 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		EAB7DD671DB4CE2D00D31ED3 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		EAB7DD681DB4CE2D00D31ED3 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		EAB7DD691DB4CEA600D31ED3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EAB7DD6A1DB4CEBB00D31ED3 /* GoToWork */,
+				EAB7DD6B1DB4CEBB00D31ED3 /* HomePage */,
+				EAB7DD6C1DB4CEBB00D31ED3 /* Message */,
+				EAB7DD6D1DB4CEBB00D31ED3 /* Mine */,
+				EAB7DD6E1DB4CEBB00D31ED3 /* Setting */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EAB7DD6A1DB4CEBB00D31ED3 /* GoToWork */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = GoToWork;
+			sourceTree = "<group>";
+		};
+		EAB7DD6B1DB4CEBB00D31ED3 /* HomePage */ = {
+			isa = PBXGroup;
+			children = (
+				EAE0573D1DB6220D00BE8524 /* 测试1.png */,
+				EAE0573F1DB6221600BE8524 /* 测试4.png */,
+				EA10E7181DB9A91B0039ED7F /* 房屋实勘 */,
+				EAE056F51DB5FCDB00BE8524 /* 首页图标 */,
+				EAE056E01DB5FAA600BE8524 /* tabBarItem */,
+			);
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		EAB7DD6C1DB4CEBB00D31ED3 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		EAB7DD6D1DB4CEBB00D31ED3 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		EAB7DD6E1DB4CEBB00D31ED3 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		EAE056D41DB5CB6500BE8524 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				EAE056D91DB5CBA800BE8524 /* PrefixHeader.pch */,
+				EAE056DA1DB5CCA900BE8524 /* Define.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		EAE056D51DB5CB9100BE8524 /* NetWorkManger */ = {
+			isa = PBXGroup;
+			children = (
+				EAE056D61DB5CB9100BE8524 /* NetWorkManger.h */,
+				EAE056D71DB5CB9100BE8524 /* NetWorkManger.m */,
+			);
+			path = NetWorkManger;
+			sourceTree = "<group>";
+		};
+		EAE056E01DB5FAA600BE8524 /* tabBarItem */ = {
+			isa = PBXGroup;
+			children = (
+				EAE056E11DB5FAA600BE8524 /* 出门一般@2x.png */,
+				EAE056E21DB5FAA600BE8524 /* 出门选中@2x.png */,
+				EAE056E31DB5FAA600BE8524 /* 和和寓一般@2x.png */,
+				EAE056E41DB5FAA600BE8524 /* 和和寓选中@2x.png */,
+				EAE056E51DB5FAA600BE8524 /* 我的一般@2x.png */,
+				EAE056E61DB5FAA600BE8524 /* 我的选中@2x.png */,
+				EAE056E71DB5FAA600BE8524 /* 消息一般@2x.png */,
+				EAE056E81DB5FAA600BE8524 /* 消息选中@2x.png */,
+				EAE056E91DB5FAA600BE8524 /* 设置一般@2x.png */,
+				EAE056EA1DB5FAA600BE8524 /* 设置选中@2x.png */,
+			);
+			path = tabBarItem;
+			sourceTree = "<group>";
+		};
+		EAE056F51DB5FCDB00BE8524 /* 首页图标 */ = {
+			isa = PBXGroup;
+			children = (
+				EAE056F61DB5FCDB00BE8524 /* banner.png */,
+				EA3EB1D11DB755C200695B02 /* 公告@2x.png */,
+				EA3EB1D21DB755C200695B02 /* 公告@3x.png */,
+				EA3EB1CD1DB74F0900695B02 /* 房屋实勘@3x.png */,
+				EA3EB1CE1DB74F0900695B02 /* 房屋实勘@2x.png */,
+				EAE056F71DB5FCDB00BE8524 /* 储备房源@2x.png */,
+				EAE056F81DB5FCDB00BE8524 /* 储备房源@3x.png */,
+				EAE056F91DB5FCDB00BE8524 /* 合租管理@2x.png */,
+				EAE056FA1DB5FCDB00BE8524 /* 合租管理@3x.png */,
+				EAE056FB1DB5FCDB00BE8524 /* 微信管理@2x.png */,
+				EAE056FC1DB5FCDB00BE8524 /* 微信管理@3x.png */,
+				EAE056FF1DB5FCDB00BE8524 /* 我的待办选中@2x.png */,
+				EAE057001DB5FCDB00BE8524 /* 我的待办选中@3x.png */,
+				EAE057031DB5FCDB00BE8524 /* 我的计划选中@2x.png */,
+				EAE057041DB5FCDB00BE8524 /* 我的计划选中@3x.png */,
+				EAE057051DB5FCDB00BE8524 /* 房屋预估@2x.png */,
+				EAE057061DB5FCDB00BE8524 /* 房屋预估@3x.png */,
+				EAE057091DB5FCDB00BE8524 /* 收支统计选中@2x.png */,
+				EAE0570A1DB5FCDB00BE8524 /* 收支统计选中@3x.png */,
+				EAE0570B1DB5FCDB00BE8524 /* 整租管理@2x.png */,
+				EAE0570C1DB5FCDB00BE8524 /* 整租管理@3x.png */,
+				EAE0570D1DB5FCDB00BE8524 /* 维修管理@2x.png */,
+				EAE0570E1DB5FCDB00BE8524 /* 维修管理@3x.png */,
+				EAE0570F1DB5FCDB00BE8524 /* 老板键@3x.png */,
+				EAE057101DB5FCDB00BE8524 /* 老板键选中@2x.png */,
+				EAE057111DB5FCDB00BE8524 /* 财务管理@2x.png */,
+				EAE057121DB5FCDB00BE8524 /* 财务管理@3x.png */,
+				EAE057131DB5FCDB00BE8524 /* 集中整租@2x.png */,
+				EAE057141DB5FCDB00BE8524 /* 集中整租@3x.png */,
+			);
+			path = "首页图标";
+			sourceTree = "<group>";
+		};
+		EC87FDBE9EE9CEAEBA91DDE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EFD035208737361784B46C7 /* Pods_Apartment.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,9 +673,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EAB7DD4C1DB4CBF600D31ED3 /* Build configuration list for PBXNativeTarget "Apartment" */;
 			buildPhases = (
+				4B1B712133D95AA16DD5CB51 /* [CP] Check Pods Manifest.lock */,
 				EAB7DD181DB4CBF600D31ED3 /* Sources */,
 				EAB7DD191DB4CBF600D31ED3 /* Frameworks */,
 				EAB7DD1A1DB4CBF600D31ED3 /* Resources */,
+				C14FE7344B8A618ADE1F6812 /* [CP] Embed Pods Frameworks */,
+				8A4C0525B85C150FA58C421B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,9 +778,67 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAFD205B1DBDE308005A5AA7 /* 返回一般@2x.png in Resources */,
+				EA10E7301DB9C7700039ED7F /* 实勘房屋基本信息@2x.png in Resources */,
+				EAE057151DB5FCDB00BE8524 /* banner.png in Resources */,
 				EAB7DD321DB4CBF600D31ED3 /* LaunchScreen.storyboard in Resources */,
+				EAE0571F1DB5FCDB00BE8524 /* 我的待办选中@3x.png in Resources */,
+				EAE056F01DB5FAA600BE8524 /* 我的选中@2x.png in Resources */,
+				EAE056EF1DB5FAA600BE8524 /* 我的一般@2x.png in Resources */,
+				EA17E7891DBDF0050009D571 /* ChooseView.xib in Resources */,
+				EAE057421DB6355C00BE8524 /* OptionsView.xib in Resources */,
+				EAE0571E1DB5FCDB00BE8524 /* 我的待办选中@2x.png in Resources */,
+				EAE057241DB5FCDB00BE8524 /* 房屋预估@2x.png in Resources */,
+				EAE0572C1DB5FCDB00BE8524 /* 维修管理@2x.png in Resources */,
+				EAE057171DB5FCDB00BE8524 /* 储备房源@3x.png in Resources */,
+				EAFD20561DBDE1D8005A5AA7 /* 下拉按钮选中@2x.png in Resources */,
+				EA4A95E31DBEFC760074B168 /* HousePropertyChooseView.xib in Resources */,
+				EAE057231DB5FCDB00BE8524 /* 我的计划选中@3x.png in Resources */,
+				EA10E7281DB9A91B0039ED7F /* 集中实勘报告@3x.png in Resources */,
+				EAE057221DB5FCDB00BE8524 /* 我的计划选中@2x.png in Resources */,
+				EAE057281DB5FCDB00BE8524 /* 收支统计选中@2x.png in Resources */,
+				EAE0572A1DB5FCDB00BE8524 /* 整租管理@2x.png in Resources */,
+				EAE0572E1DB5FCDB00BE8524 /* 老板键@3x.png in Resources */,
+				EAE056F41DB5FAA600BE8524 /* 设置选中@2x.png in Resources */,
+				EAE0572F1DB5FCDB00BE8524 /* 老板键选中@2x.png in Resources */,
+				EAE0571B1DB5FCDB00BE8524 /* 微信管理@3x.png in Resources */,
+				EAE0572D1DB5FCDB00BE8524 /* 维修管理@3x.png in Resources */,
+				EA10E7271DB9A91B0039ED7F /* 集中实勘报告@2x.png in Resources */,
+				EAE057291DB5FCDB00BE8524 /* 收支统计选中@3x.png in Resources */,
+				EA10E7241DB9A91B0039ED7F /* 底部插画@3x.png in Resources */,
+				EAE057181DB5FCDB00BE8524 /* 合租管理@2x.png in Resources */,
+				EAE057331DB5FCDB00BE8524 /* 集中整租@3x.png in Resources */,
+				EAE0572B1DB5FCDB00BE8524 /* 整租管理@3x.png in Resources */,
+				EAE056F11DB5FAA600BE8524 /* 消息一般@2x.png in Resources */,
+				EA10E7211DB9A91B0039ED7F /* 分散实勘报告@2x.png in Resources */,
+				EAE0573E1DB6220D00BE8524 /* 测试1.png in Resources */,
+				EA3EB1D01DB74F0900695B02 /* 房屋实勘@2x.png in Resources */,
+				EA2E75D71DB89E7300D514AB /* NoticeView.xib in Resources */,
+				EA10E7231DB9A91B0039ED7F /* 底部插画@2x.png in Resources */,
+				EAE056EC1DB5FAA600BE8524 /* 出门选中@2x.png in Resources */,
+				EAE056ED1DB5FAA600BE8524 /* 和和寓一般@2x.png in Resources */,
+				EAE057321DB5FCDB00BE8524 /* 集中整租@2x.png in Resources */,
+				EAE056F21DB5FAA600BE8524 /* 消息选中@2x.png in Resources */,
 				EAB7DD2F1DB4CBF600D31ED3 /* Assets.xcassets in Resources */,
+				EAE057401DB6221600BE8524 /* 测试4.png in Resources */,
+				EAE057301DB5FCDB00BE8524 /* 财务管理@2x.png in Resources */,
+				EAE057161DB5FCDB00BE8524 /* 储备房源@2x.png in Resources */,
 				EAB7DD2A1DB4CBF600D31ED3 /* Main.storyboard in Resources */,
+				EA3EB1CF1DB74F0900695B02 /* 房屋实勘@3x.png in Resources */,
+				EAFD20531DBDE1B3005A5AA7 /* 返回主页选中@2x.png in Resources */,
+				EAE057311DB5FCDB00BE8524 /* 财务管理@3x.png in Resources */,
+				EAE0571A1DB5FCDB00BE8524 /* 微信管理@2x.png in Resources */,
+				EA10E7221DB9A91B0039ED7F /* 分散实勘报告@3x.png in Resources */,
+				EAFD20571DBDE1D8005A5AA7 /* 下拉按钮一般@2x.png in Resources */,
+				EAE056D31DB5C67700BE8524 /* HomePageCell.xib in Resources */,
+				EA3EB1D31DB755C200695B02 /* 公告@2x.png in Resources */,
+				EAE056EE1DB5FAA600BE8524 /* 和和寓选中@2x.png in Resources */,
+				EAE056F31DB5FAA600BE8524 /* 设置一般@2x.png in Resources */,
+				EAE057191DB5FCDB00BE8524 /* 合租管理@3x.png in Resources */,
+				EA10E7331DB9C88A0039ED7F /* 下一步按钮@2x.png in Resources */,
+				EAE056EB1DB5FAA600BE8524 /* 出门一般@2x.png in Resources */,
+				EA3EB1D41DB755C200695B02 /* 公告@3x.png in Resources */,
+				EAE057251DB5FCDB00BE8524 /* 房屋预估@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,14 +858,76 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4B1B712133D95AA16DD5CB51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8A4C0525B85C150FA58C421B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Apartment/Pods-Apartment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C14FE7344B8A618ADE1F6812 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Apartment/Pods-Apartment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EAB7DD181DB4CBF600D31ED3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAFE3C1B1DB4D34000F07013 /* MessageViewController.m in Sources */,
+				EA2E75D51DB89E6400D514AB /* NoticeView.m in Sources */,
+				EAFE3C211DB4D35F00F07013 /* MineViewController.m in Sources */,
+				EA17E7871DBDEFF40009D571 /* ChooseView.m in Sources */,
+				EAE056DE1DB5F48800BE8524 /* SycleScrollView.m in Sources */,
+				EAFE3C151DB4D01600F07013 /* HomePageViewController.m in Sources */,
 				EAB7DD241DB4CBF600D31ED3 /* AppDelegate.m in Sources */,
+				EA10E7171DB9A5680039ED7F /* CheckOutViewController.m in Sources */,
+				EAE056D81DB5CB9100BE8524 /* NetWorkManger.m in Sources */,
 				EAB7DD2D1DB4CBF600D31ED3 /* Apartment.xcdatamodeld in Sources */,
+				EAE057361DB6106800BE8524 /* OptionsView.m in Sources */,
 				EAB7DD211DB4CBF600D31ED3 /* main.m in Sources */,
+				EA4A95E11DBEFC5E0074B168 /* HousePropertyChooseView.m in Sources */,
+				EAE056D21DB5C67700BE8524 /* HomePageCell.m in Sources */,
+				EA10E7361DB9C92A0039ED7F /* GroupCheckController.m in Sources */,
+				EAFE3C271DB4D39300F07013 /* GoToWorkViewController.m in Sources */,
+				EAFE3C241DB4D36C00F07013 /* SettingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +1000,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -397,6 +1049,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -423,9 +1076,12 @@
 		};
 		EAB7DD4D1DB4CBF600D31ED3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87193A6CC73F19A908AA5982 /* Pods-Apartment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YGFHD343SK;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Apartment/Tool/Define/PrefixHeader.pch";
 				INFOPLIST_FILE = Apartment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = henghui.Apartment;
@@ -435,9 +1091,12 @@
 		};
 		EAB7DD4E1DB4CBF600D31ED3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 448447AB6C1EFE4A05FF0C51 /* Pods-Apartment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YGFHD343SK;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Apartment/Tool/Define/PrefixHeader.pch";
 				INFOPLIST_FILE = Apartment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = henghui.Apartment;
@@ -514,6 +1173,7 @@
 				EAB7DD4E1DB4CBF600D31ED3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAB7DD4F1DB4CBF600D31ED3 /* Build configuration list for PBXNativeTarget "ApartmentTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +1182,7 @@
 				EAB7DD511DB4CBF600D31ED3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EAB7DD521DB4CBF600D31ED3 /* Build configuration list for PBXNativeTarget "ApartmentUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +1191,7 @@
 				EAB7DD541DB4CBF600D31ED3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
