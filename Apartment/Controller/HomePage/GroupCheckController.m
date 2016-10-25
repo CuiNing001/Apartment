@@ -51,6 +51,8 @@
     
     _chooseHouseTypeTextField.delegate = self;
     
+    _startYearTextField.delegate = self;
+    
 }
 
 #pragma mark - 土地性质选择框
@@ -216,7 +218,18 @@
 // 取消textfield编辑
 - (BOOL)textFieldShouldBeginEditing:(UITextField *)textField{
     
-    return NO;
+    if (textField == _chooseHouseTypeTextField) {
+        
+        return NO;
+    }else if (textField == _chooseLandTypeBtn){
+        
+        return NO;
+    }else{
+        
+        return YES;
+    }
+    
+ 
 }
 
 
