@@ -45,6 +45,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
  
+    // 指定textField代理
     [self addDelegate];
     
     // 添加手势
@@ -58,47 +59,6 @@
     
 }
 
-// 添加textField代理
-- (void)addDelegate{
-    
-    _chooseLandTypeBtn.delegate = self;
-    
-    _chooseHouseTypeTextField.delegate = self;
-    
-    _startYearTextField.delegate = self;
-    
-    _propertyOrderTextField.delegate = self;
-    
-    _housingArea.delegate = self;
-    
-    _floorTextField.delegate = self;
-    
-    _standardSize.delegate = self;
-    
-    _rentArea.delegate = self;
-    
-    _rentFloorTextField.delegate = self;
-    
-    _rentRoomNumber.delegate = self;
-    
-    _roomArea.delegate = self;
-    
-    _dailyRent.delegate = self;
-    
-    _leaseTextField.delegate = self;
-    
-    _increasingTextField.delegate = self;
-    
-    _methodOfPayment.delegate = self;
-    
-    _rentFreePeriod.delegate = self;
-    
-    _rentsTextField.delegate = self;
-    
-    _superiorityTextView.delegate = self;
-    
-    _weaknessTextView.delegate = self;
-}
 
 #pragma mark - 土地性质选择框
 - (IBAction)chooseBtn:(UIButton *)sender {
@@ -259,7 +219,51 @@
     NSLog(@"下一步");
 }
 
+#pragma mark - 指定textField代理
+// 添加textField代理
+- (void)addDelegate{
+    
+    _chooseLandTypeBtn.delegate = self;
+    
+    _chooseHouseTypeTextField.delegate = self;
+    
+    _startYearTextField.delegate = self;
+    
+    _propertyOrderTextField.delegate = self;
+    
+    _housingArea.delegate = self;
+    
+    _floorTextField.delegate = self;
+    
+    _standardSize.delegate = self;
+    
+    _rentArea.delegate = self;
+    
+    _rentFloorTextField.delegate = self;
+    
+    _rentRoomNumber.delegate = self;
+    
+    _roomArea.delegate = self;
+    
+    _dailyRent.delegate = self;
+    
+    _leaseTextField.delegate = self;
+    
+    _increasingTextField.delegate = self;
+    
+    _methodOfPayment.delegate = self;
+    
+    _rentFreePeriod.delegate = self;
+    
+    _rentsTextField.delegate = self;
+    
+    _superiorityTextView.delegate = self;
+    
+    _weaknessTextView.delegate = self;
+}
 
+
+#pragma mark - 文本编辑框代理方法
 // 取消textfield编辑
 - (BOOL)textFieldShouldBeginEditing:(UITextField *)textField{
     
