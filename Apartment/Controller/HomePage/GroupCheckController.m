@@ -10,7 +10,7 @@
 #import "ChooseView.h"
 #import "HousePropertyChooseView.h"
 
-@interface GroupCheckController ()<UITextFieldDelegate>
+@interface GroupCheckController ()<UITextFieldDelegate,UITextViewDelegate>
 
 
 @property (weak, nonatomic) IBOutlet UIView *backGroundView;
@@ -44,8 +44,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+ 
+    [self addDelegate];
     
-//    [self textFieldRightImage];
+    // 添加手势
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(returnKey:)];
+    
+    //设置成NO表示当前控件响应后会传播到其他控件上，默认为YES
+    tap.cancelsTouchesInView = NO;
+    
+    [self.backGroundView addGestureRecognizer:tap];
+    
+    
+}
+
+// 添加textField代理
+- (void)addDelegate{
     
     _chooseLandTypeBtn.delegate = self;
     
@@ -53,6 +67,37 @@
     
     _startYearTextField.delegate = self;
     
+    _propertyOrderTextField.delegate = self;
+    
+    _housingArea.delegate = self;
+    
+    _floorTextField.delegate = self;
+    
+    _standardSize.delegate = self;
+    
+    _rentArea.delegate = self;
+    
+    _rentFloorTextField.delegate = self;
+    
+    _rentRoomNumber.delegate = self;
+    
+    _roomArea.delegate = self;
+    
+    _dailyRent.delegate = self;
+    
+    _leaseTextField.delegate = self;
+    
+    _increasingTextField.delegate = self;
+    
+    _methodOfPayment.delegate = self;
+    
+    _rentFreePeriod.delegate = self;
+    
+    _rentsTextField.delegate = self;
+    
+    _superiorityTextView.delegate = self;
+    
+    _weaknessTextView.delegate = self;
 }
 
 #pragma mark - 土地性质选择框
@@ -232,16 +277,33 @@
  
 }
 
+// textField回收键盘
+-(BOOL)textFieldShouldReturn:(UITextField *)textField{
+    
+    [textField resignFirstResponder];
+    
+    return YES;
+}
 
 
+// textView回收键盘
+- (BOOL)textView:(UITextView *)textView shouldChangeTextInRange:(NSRange)range replacementText:(NSString *)text{
+    
+    if ([@"\n" isEqualToString:text] == YES){
+        
+        [textView resignFirstResponder];
+        
+        return NO;
+    }
+    
+    return YES;
+}
 
-
-
-
-
-
-
-
+// 点击屏幕回收键盘
+- (void)returnKey:(UITapGestureRecognizer *)tap{
+    
+    [_backGroundView endEditing:YES];
+}
 
 
 
