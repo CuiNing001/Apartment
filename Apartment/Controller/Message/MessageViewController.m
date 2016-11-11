@@ -22,19 +22,17 @@
     //获取当前时间日期
     NSDate *date=[NSDate date];
     
-    NSDateFormatter *format1=[[NSDateFormatter alloc] init];
+    NSDateFormatter *format=[[NSDateFormatter alloc] init];
     
-    [format1 setDateFormat:@"yyyy-MM-dd hh:mm:ss"];
+    [format setDateFormat:@"yyyy-MM-dd hh:mm:ss"];
     
     NSString *dateStr;
     
-    dateStr=[format1 stringFromDate:date];
+    dateStr=[format stringFromDate:date];
     
     NSLog(@"%@",dateStr);
     
     UILabel *text = [[UILabel alloc]initWithFrame:CGRectMake(10, 200, 300, 80)];
-    
-   
     
     text.text = dateStr;
     

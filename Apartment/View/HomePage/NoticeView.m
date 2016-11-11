@@ -76,13 +76,13 @@ static NSString *const cell = @"cell";  // cell标识符
     //获取当前时间日期
     NSDate *date=[NSDate date];
     
-    NSDateFormatter *format1=[[NSDateFormatter alloc] init];
+    NSDateFormatter *format=[[NSDateFormatter alloc] init];
     
-    [format1 setDateFormat:@"yyyy-MM-dd"];
+    [format setDateFormat:@"yyyy-MM-dd"];
     
     NSString *dateStr;
     
-    dateStr=[format1 stringFromDate:date];
+    dateStr=[format stringFromDate:date];
     
     self.dateLabel.text = dateStr;
     

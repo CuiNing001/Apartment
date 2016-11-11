@@ -32,6 +32,7 @@
 
 @property (strong,nonatomic) NoticeView *notice; //公告
 
+
 @end
 
 
@@ -81,7 +82,6 @@
     _imageArray = @[@"房屋实勘@2x",@"整租管理@2x",@"合租管理@2x",@"集中整租@2x",@"房屋预估@2x",@"财务管理@2x",@"维修管理@2x",@"储备房源@2x",@"微信管理@2x"];
     
     _scycleImageGroup = @[@"banner",@"测试1",@"测试4"];
-
     
     [self loadSubView];
     
@@ -152,9 +152,11 @@
         // 设置本地轮播图
         _scycleScroll = [SDCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 0, size_width, kHeadView_Height) shouldInfiniteLoop:YES imageNamesGroup:_scycleImageGroup];
         
-        SycleScrollView *header = [_collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"headerView" forIndexPath:indexPath];
+        _scycleScroll.contentMode = UIViewContentModeScaleAspectFill;
         
-        reusableView = header;
+        self.sycleScrollView = [_collectionView dequeueReusableSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"headerView" forIndexPath:indexPath];
+        
+        reusableView = _sycleScrollView;
         
         self.scycleScroll.delegate = self;
         
@@ -238,6 +240,28 @@
         NSLog(@"item");
     }
 }
+
+/*
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
+
+{
+    
+    CGFloat offsetY = scrollView.contentOffset.y;
+    
+    if (offsetY<0) {
+        
+        CGFloat scale = 1- (offsetY/50);
+        
+        scale = (scale>=1)?scale:1;
+        
+        self.scycleScroll.transform = CGAffineTransformMakeScale(scale, scale);
+        
+    }
+    
+}
+*/
+
+
 
 - (void)viewWillAppear:(BOOL)animated{
     
